@@ -11,3 +11,7 @@ body{background:#fcfaff}.wordmark,h1,h2{color:#483456}.wordmark span{color:#ad88
 .paper-title{font-size:16px;color:#392d43}.paper-title a{color:inherit}.authors{font-size:12px}.authors strong{text-decoration:underline;text-underline-offset:3px}.venue{font-size:12px}.paper-summary{font-size:12px;line-height:1.65;color:var(--muted);margin:9px 0 0}.paper-links a,.paper-details summary{border-color:#bba4cf;background:#fff}.paper-links a:hover{background:#efe6f6}.paper-details pre{background:#f2edf8}.paper-details summary{font-size:11px}
 @media(max-width:850px){.layout{grid-template-columns:210px minmax(0,1fr);gap:32px}.publication{grid-template-columns:1fr}.paper-visual{width:185px}}
 @media(max-width:640px){.layout{display:block}.publication{grid-template-columns:1fr;gap:15px}.paper-visual{width:min(260px,100%)}.research-list li{margin-bottom:8px}}
+
+/* Preserve complete paper figures regardless of their aspect ratio. */
+.paper-visual img{aspect-ratio:auto;height:auto;max-height:none;object-fit:contain;background:#fff}
+.paper-visual{max-width:100%}

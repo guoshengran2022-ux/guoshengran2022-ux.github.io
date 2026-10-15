@@ -3,8 +3,8 @@
    links ({ PDF, Code, Website, DOI }), abstract, bibtex. */
 const profile = {
   email: 'sguo27@ncsu.edu',
-  linkedin: '',
-  scholar: '',
+  linkedin: 'https://www.linkedin.com/in/shengran-guo-b108312bb/',
+  scholar: 'https://scholar.google.com/citations?user=rDqRZrIAAAAJ&hl=zh-CN',
   publications: [
   {
     "title": "Beyond Response Scoring: An AI-aware Cognitive Supervision Framework for Automated Mathematical Short Answer Grading",
@@ -14,13 +14,29 @@ const profile = {
       "Feifei Qiao",
       "Varad Patwardhan"
     ],
-    "venue": "Submitted to AAAI 2027",
+    "venue": "AAAI 2027 · Under review (Round 2)",
     "year": "2026",
-    "badge": "AAAI 2027 · Submission",
+    "badge": "AAAI",
     "summary": "Combines cognitive supervision and AI-aware reliability weighting for automated mathematical short answer grading.",
-    "image": "assets/paper-1.svg",
-    "imageAlt": "Topic card: AICG — AI-aware mathematical grading",
-    "bibtex": "@misc{guo2026aicg,\n  title = {Beyond Response Scoring: An AI-aware Cognitive Supervision Framework for Automated Mathematical Short Answer Grading},\n  author = {Shengran Guo and Min Chi and Feifei Qiao and Varad Patwardhan},\n  year = {2026},\n  note = {Submitted to AAAI 2027}\n}"
+    "image": "assets/publication-1.png",
+    "imageAlt": "Framework overview: Beyond Response Scoring: An AI-aware Cognitive Supervision Framework for Automated Mathematical Short Answer Grading",
+    "bibtex": "@misc{guo2026aicg,\n  title = {Beyond Response Scoring: An AI-aware Cognitive Supervision Framework for Automated Mathematical Short Answer Grading},\n  author = {Shengran Guo and Min Chi and Feifei Qiao and Varad Patwardhan},\n  year = {2026},\n  note = {AAAI 2027 · Under review (Round 2)}\n}"
+  },
+  {
+    "title": "Critical Contrast Hierarchical Apprenticeship Learning from Imperfect Demonstrations",
+    "authors": [
+      "Md Mirajul Islam",
+      "Shengran Guo",
+      "Xi Yang",
+      "Min Chi"
+    ],
+    "venue": "KDD 2027 submission · Research manuscript",
+    "year": "2026",
+    "badge": "KDD",
+    "summary": "Combines decision-level outcome attribution and contrastive criticality scoring for apprenticeship learning in healthcare and education.",
+    "image": "assets/publication-2.png",
+    "imageAlt": "Framework overview: Critical Contrast Hierarchical Apprenticeship Learning from Imperfect Demonstrations",
+    "bibtex": "@misc{islam2026cchal,\n  title = {Critical Contrast Hierarchical Apprenticeship Learning from Imperfect Demonstrations},\n  author = {Md Mirajul Islam and Shengran Guo and Xi Yang and Min Chi},\n  year = {2026},\n  note = {KDD 2027 submission · Research manuscript}\n}"
   },
   {
     "title": "Direct Hidden-State Alignment: Mapping and Controlling Preference Expression in LLMs",
@@ -32,17 +48,35 @@ const profile = {
       "Jiyuan Chen",
       "Ruikun Luo"
     ],
-    "venue": "arXiv:2609.33298",
+    "venue": "ICLR submission · arXiv:2609.33298",
     "year": "2026",
-    "badge": "arXiv",
+    "badge": "ICLR",
     "summary": "Maps preference-relevant residual computation and controls behavioral expression through lightweight hidden-state interventions.",
     "links": {
       "PDF": "https://arxiv.org/pdf/2609.33298",
       "arXiv": "https://arxiv.org/abs/2609.33298"
     },
-    "image": "assets/paper-2.svg",
-    "imageAlt": "Topic card: DHSA — Preference alignment in LLMs",
-    "bibtex": "@misc{zhang2026dhsa,\n  title = {Direct Hidden-State Alignment: Mapping and Controlling Preference Expression in LLMs},\n  author = {Fansheng Zhang and Shengran Guo and Zexiao Wang and Liang Yuan and Jiyuan Chen and Ruikun Luo},\n  year = {2026},\n  note = {arXiv:2609.33298}\n}"
+    "image": "assets/publication-3.png",
+    "imageAlt": "Framework overview: Direct Hidden-State Alignment: Mapping and Controlling Preference Expression in LLMs",
+    "bibtex": "@misc{zhang2026dhsa,\n  title = {Direct Hidden-State Alignment: Mapping and Controlling Preference Expression in LLMs},\n  author = {Fansheng Zhang and Shengran Guo and Zexiao Wang and Liang Yuan and Jiyuan Chen and Ruikun Luo},\n  year = {2026},\n  note = {ICLR submission · arXiv:2609.33298}\n}"
+  },
+  {
+    "title": "TRUST: Trace-Based Recovery of Unbiased Student Trajectories for Robust Pedagogical Policy Induction",
+    "authors": [
+      "Rajesh Debnath",
+      "Shengran Guo",
+      "Adittya Soukarjya Saha",
+      "Md Mirajul Islam",
+      "Tiffany Barnes",
+      "Min Chi"
+    ],
+    "venue": "LAK 2027 · Under review",
+    "year": "2026",
+    "badge": "LAK",
+    "summary": "Filters student trajectories whose interaction patterns conflict with observed learning outcomes to support robust policy induction and evaluation.",
+    "image": "assets/publication-4.png",
+    "imageAlt": "Framework overview: TRUST: Trace-Based Recovery of Unbiased Student Trajectories for Robust Pedagogical Policy Induction",
+    "bibtex": "@misc{debnath2026trust,\n  title = {TRUST: Trace-Based Recovery of Unbiased Student Trajectories for Robust Pedagogical Policy Induction},\n  author = {Rajesh Debnath and Shengran Guo and Adittya Soukarjya Saha and Md Mirajul Islam and Tiffany Barnes and Min Chi},\n  year = {2026},\n  note = {LAK 2027 · Under review}\n}"
   },
   {
     "title": "ConsultMind: Towards Automated Diagnostic Consultation via Uncertainty-Aware Reasoning",
@@ -62,60 +96,30 @@ const profile = {
       "Rong Tang",
       "Kaiwen Wei"
     ],
-    "venue": "Submitted to ACL ARR, October 2026",
+    "venue": "ACL ARR · October submission",
     "year": "2026",
-    "badge": "ACL ARR · Submission",
+    "badge": "ACL",
     "summary": "Uses a Disorder–Symptom Bayesian Network and posterior uncertainty to guide adaptive inquiry and diagnostic decisions.",
-    "image": "assets/paper-3.svg",
-    "imageAlt": "Topic card: ConsultMind — Uncertainty-aware consultation",
-    "bibtex": "@misc{sun2026consultmind,\n  title = {ConsultMind: Towards Automated Diagnostic Consultation via Uncertainty-Aware Reasoning},\n  author = {Xiao Sun and ymyang and Qiang Huang and Jiang Zhong and Li Jin and Junnan Zhu and Xinyi Jiang and Haoyang Zeng and Ruirui Chen and Yining Wang and Shengran Guo and xinyu zhou and Rong Tang and Kaiwen Wei},\n  year = {2026},\n  note = {Submitted to ACL ARR, October 2026}\n}"
-  },
-  {
-    "title": "TRUST: Trace-Based Recovery of Unbiased Student Trajectories for Robust Pedagogical Policy Induction",
-    "authors": [
-      "Rajesh Debnath",
-      "Shengran Guo",
-      "Adittya Soukarjya Saha",
-      "Md Mirajul Islam",
-      "Tiffany Barnes",
-      "Min Chi"
-    ],
-    "venue": "Submitted to LAK 2027",
-    "year": "2026",
-    "badge": "LAK 2027 · Submission",
-    "summary": "Filters student trajectories whose interaction patterns conflict with observed learning outcomes to support robust policy induction and evaluation.",
-    "image": "assets/paper-4.svg",
-    "imageAlt": "Topic card: TRUST — Reliable pedagogical policy learning",
-    "bibtex": "@misc{debnath2026trust,\n  title = {TRUST: Trace-Based Recovery of Unbiased Student Trajectories for Robust Pedagogical Policy Induction},\n  author = {Rajesh Debnath and Shengran Guo and Adittya Soukarjya Saha and Md Mirajul Islam and Tiffany Barnes and Min Chi},\n  year = {2026},\n  note = {Submitted to LAK 2027}\n}"
-  },
-  {
-    "title": "Critical Contrast Hierarchical Apprenticeship Learning from Imperfect Demonstrations",
-    "authors": [
-      "Md Mirajul Islam",
-      "Shengran Guo",
-      "Xi Yang",
-      "Min Chi"
-    ],
-    "venue": "Research manuscript",
-    "year": "2026",
-    "badge": "Manuscript",
-    "summary": "Combines decision-level outcome attribution and contrastive criticality scoring for apprenticeship learning in healthcare and education.",
-    "image": "assets/paper-5.svg",
-    "imageAlt": "Topic card: CCHAL — Learning from imperfect demonstrations",
-    "bibtex": "@misc{islam2026cchal,\n  title = {Critical Contrast Hierarchical Apprenticeship Learning from Imperfect Demonstrations},\n  author = {Md Mirajul Islam and Shengran Guo and Xi Yang and Min Chi},\n  year = {2026},\n  note = {Research manuscript}\n}"
+    "image": "assets/publication-5.png",
+    "imageAlt": "Framework overview: ConsultMind: Towards Automated Diagnostic Consultation via Uncertainty-Aware Reasoning",
+    "bibtex": "@misc{sun2026consultmind,\n  title = {ConsultMind: Towards Automated Diagnostic Consultation via Uncertainty-Aware Reasoning},\n  author = {Xiao Sun and ymyang and Qiang Huang and Jiang Zhong and Li Jin and Junnan Zhu and Xinyi Jiang and Haoyang Zeng and Ruirui Chen and Yining Wang and Shengran Guo and xinyu zhou and Rong Tang and Kaiwen Wei},\n  year = {2026},\n  note = {ACL ARR · October submission}\n}"
   },
   {
     "title": "Application and Impact of Position Embedding in Natural Language Processing",
     "authors": [
       "Shengran Guo"
     ],
-    "venue": "ICEIB 2024, pp. 246–250",
+    "venue": "ICEIB · pp. 246–250",
     "year": "2024",
-    "badge": "ICEIB 2024",
+    "badge": "ICEIB",
     "summary": "",
-    "image": "assets/paper-6.svg",
-    "imageAlt": "Topic card: Position Embedding — Natural language processing",
-    "bibtex": "@inproceedings{guo2024position,\n  title = {Application and Impact of Position Embedding in Natural Language Processing},\n  author = {Shengran Guo},\n  year = {2024},\n  booktitle = {ICEIB 2024},\n  pages = {246--250}\n}"
+    "image": "assets/publication-6.png",
+    "imageAlt": "Framework overview: Application and Impact of Position Embedding in Natural Language Processing",
+    "bibtex": "@inproceedings{guo2024position,\n  title = {Application and Impact of Position Embedding in Natural Language Processing},\n  author = {Shengran Guo},\n  year = {2024},\n  booktitle = {ICEIB 2024},\n  pages = {246--250},\n  doi = {10.1109/ICEIB61477.2024.10602658}\n}",
+    "links": {
+      "PDF": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10602658",
+      "DOI": "https://doi.org/10.1109/ICEIB61477.2024.10602658"
+    }
   }
 ]
 };
