@@ -4,7 +4,7 @@
 :root{--ink:#352d40;--muted:#776b81;--blue:#79549b;--line:#e7dfee;--accent:#a17bbe}
 body{background:#fcfaff}.wordmark,h1,h2{color:#483456}.wordmark span{color:#ad88c6}
 .layout{max-width:1200px;grid-template-columns:245px minmax(0,1fr);gap:62px}
-#research>p{margin-bottom:10px}.research-list{margin-top:8px}.research-list li{margin-bottom:7px}.research-list h3,.research-list p{display:inline;font-size:14px;line-height:1.65}.research-list h3::after{content:': ';}.research-list p{margin:0}#research{margin-bottom:30px}
+#research>p{margin-bottom:10px}.research-list{margin-top:8px}.research-list li{margin-bottom:7px}.research-list h3,.research-list p{display:inline;font-size:16px;line-height:1.8}.research-list h3::after{content:': ';}.research-list p{margin:0}#research{margin-bottom:30px}
 .publication{grid-template-columns:185px minmax(0,1fr);gap:24px;padding:26px 0;border-bottom:0}
 .venue-badge{display:block;text-align:center;background:#d6c3e4;color:#483456;margin-bottom:9px;padding:3px 7px;border-radius:5px;font-size:11px;line-height:1.7}
 .paper-visual img{height:auto;aspect-ratio:12/7;border:1px solid #e7dfee;border-radius:7px;box-shadow:0 3px 10px #59416f14;background:#f2edf8}
