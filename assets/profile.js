@@ -79,32 +79,6 @@ const profile = {
     "bibtex": "@misc{debnath2026trust,\n  title = {TRUST: Trace-Based Recovery of Unbiased Student Trajectories for Robust Pedagogical Policy Induction},\n  author = {Rajesh Debnath and Shengran Guo and Adittya Soukarjya Saha and Md Mirajul Islam and Tiffany Barnes and Min Chi},\n  year = {2026},\n  note = {LAK 2027 · Under review}\n}"
   },
   {
-    "title": "ConsultMind: Towards Automated Diagnostic Consultation via Uncertainty-Aware Reasoning",
-    "authors": [
-      "Xiao Sun",
-      "ymyang",
-      "Qiang Huang",
-      "Jiang Zhong",
-      "Li Jin",
-      "Junnan Zhu",
-      "Xinyi Jiang",
-      "Haoyang Zeng",
-      "Ruirui Chen",
-      "Yining Wang",
-      "Shengran Guo",
-      "xinyu zhou",
-      "Rong Tang",
-      "Kaiwen Wei"
-    ],
-    "venue": "ACL ARR · October submission",
-    "year": "2026",
-    "badge": "Submitted to ACL",
-    "summary": "Uses a Disorder–Symptom Bayesian Network and posterior uncertainty to guide adaptive inquiry and diagnostic decisions.",
-    "image": "assets/publication-5.png",
-    "imageAlt": "Framework overview: ConsultMind: Towards Automated Diagnostic Consultation via Uncertainty-Aware Reasoning",
-    "bibtex": "@misc{sun2026consultmind,\n  title = {ConsultMind: Towards Automated Diagnostic Consultation via Uncertainty-Aware Reasoning},\n  author = {Xiao Sun and ymyang and Qiang Huang and Jiang Zhong and Li Jin and Junnan Zhu and Xinyi Jiang and Haoyang Zeng and Ruirui Chen and Yining Wang and Shengran Guo and xinyu zhou and Rong Tang and Kaiwen Wei},\n  year = {2026},\n  note = {ACL ARR · October submission}\n}"
-  },
-  {
     "title": "Application and Impact of Position Embedding in Natural Language Processing",
     "authors": [
       "Shengran Guo"
