@@ -176,9 +176,23 @@ for (const paper of profile.publications) {
     link.href = url;
     links.append(link);
   }
-  content.append(links);
+  if (paper.bibtex) {
+    const panel = element('pre', 'bibtex-panel', paper.bibtex);
+    panel.id = `bibtex-${list.children.length + 1}`;
+    panel.hidden = true;
+    const button = element('button', 'bib-button', 'BIB');
+    button.type = 'button';
+    button.setAttribute('aria-controls', panel.id);
+    button.setAttribute('aria-expanded', 'false');
+    button.addEventListener('click', () => {
+      panel.hidden = !panel.hidden;
+      button.setAttribute('aria-expanded', String(!panel.hidden));
+    });
+    links.prepend(button);
+    content.append(links, panel);
+  } else content.append(links);
   if (paper.summary) content.append(element('p', 'paper-summary', paper.summary));
-  for (const [label, value, tag] of [['Abstract', paper.abstract, 'p'], ['BIB', paper.bibtex, 'pre']]) {
+  for (const [label, value, tag] of [['Abstract', paper.abstract, 'p']]) {
     if (!value) continue;
     const details = element('details', 'paper-details');
     details.append(element('summary', '', label), element(tag, 'paper-abstract', value));

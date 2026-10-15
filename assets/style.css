@@ -15,3 +15,9 @@ body{background:#fcfaff}.wordmark,h1,h2{color:#483456}.wordmark span{color:#ad88
 /* Preserve complete paper figures regardless of their aspect ratio. */
 .paper-visual img{aspect-ratio:auto;height:auto;max-height:none;object-fit:contain;background:#fff}
 .paper-visual{max-width:100%}
+
+/* Keep publication actions on one shared row. */
+.paper-links{flex-wrap:nowrap;align-items:center;gap:7px;overflow-x:auto;padding:2px 0}
+.paper-links a,.bib-button{flex:none;white-space:nowrap;font:12px/1.8 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;border:1px solid #bba4cf;border-radius:4px;padding:1px 9px;color:var(--blue);background:#fff;cursor:pointer}
+.bib-button:hover{background:#efe6f6}.bib-button:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.bibtex-panel{font:12px/1.6 monospace;background:#f2edf8;padding:14px;white-space:pre-wrap;overflow-wrap:anywhere;margin:10px 0}
