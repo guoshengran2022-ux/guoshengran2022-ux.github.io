@@ -12,23 +12,44 @@
       background: #fafafa;
       margin: 0;
     }
+
     main {
       max-width: 800px;
       margin: 60px auto;
       padding: 32px;
       background: white;
     }
-    h1 { margin-bottom: 4px; color: #172b4d; }
+
+    h1 {
+      margin-bottom: 4px;
+      color: #172b4d;
+    }
+
     h2 {
       margin-top: 36px;
       border-bottom: 1px solid #e5e7eb;
       padding-bottom: 8px;
     }
-    .subtitle { color: #607080; margin-top: 0; }
-    a { color: #1769aa; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+
+    .subtitle {
+      color: #607080;
+      margin-top: 0;
+    }
+
+    a {
+      color: #1769aa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
     @media (max-width: 600px) {
-      main { margin: 16px; padding: 24px; }
+      main {
+        margin: 16px;
+        padding: 24px;
+      }
     }
   </style>
 </head>
@@ -44,20 +65,33 @@
       <a href="https://github.com/guoshengran2022-ux">GitHub</a>
     </p>
 
-    <h2>About</h2>
-    <p>
-      I am a Ph.D. student in Computer Science at North Carolina
-      State University. Previously, I received my master's degree
-      in Computer Science from Johns Hopkins University.
-    </p>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I am currently a Ph.D. student in the Department of Computer Science at
+        <strong>North Carolina State University</strong>, advised by
+        <a href="https://csc.ncsu.edu/people/mchi/">Dr. Min Chi</a>.
+        My research focuses on reinforcement learning, generative AI, and LLM post-training.
+        I received my M.S. in Computer Science from
+        <strong>Johns Hopkins University</strong>, where I was advised by
+        <a href="https://engineering.jhu.edu/faculty/philipp-koehn/">Dr. Philipp Koehn</a>.
+        Previously, I earned a BSc (Honours) from
+        <strong>Oxford Brookes University</strong> and a B.Eng. from
+        <strong>Chengdu University of Technology</strong>, both in Software Engineering,
+        through the Sino-British Collaborative Education Programme, where I was advised by
+        <a href="https://scholar.google.com/citations?user=j9DqHo0AAAAJ&amp;hl=en">Joojo Walker</a>.
+        I graduated with First Class Honours, ranking in the top 1% of my cohort.
+      </p>
+    </section>
 
-    <h2>Research Interests</h2>
-    <ul>
-      <li>Large Language Models</li>
-      <li>Artificial Intelligence for Education</li>
-      <li>Natural Language Processing</li>
-      <li>AI for Software Engineering</li>
-    </ul>
+    <section id="research">
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Reinforcement Learning</li>
+        <li>Generative AI</li>
+        <li>LLM Post-Training</li>
+      </ul>
+    </section>
   </main>
 </body>
 </html>
