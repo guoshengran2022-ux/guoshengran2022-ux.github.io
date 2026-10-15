@@ -40,3 +40,6 @@ nav [aria-current=page]{color:var(--blue);font-weight:650}
 .profile-photo{display:block;width:245px;height:305px;max-width:100%;object-fit:cover;object-position:50% 53%;border-radius:9px;margin:0 0 22px;border:1px solid var(--line)}
 .profile-email{font-size:14px;margin:8px 0 0;line-height:1.6}
 @media(max-width:640px){.profile-photo{width:220px;height:275px;margin-bottom:18px}}
+
+.teaching-university{margin-bottom:18px}.teaching-entry{margin-bottom:18px}.teaching-heading{display:flex;justify-content:space-between;align-items:baseline;gap:12px}.teaching-heading h3{font-size:15px;line-height:1.6}.teaching-heading>span{font-size:13px;color:var(--muted);white-space:nowrap}.teaching-entry p{font-size:14px;color:var(--muted);line-height:1.7;margin:4px 0 0}
+@media(max-width:640px){.teaching-heading{display:block}.teaching-heading>span{display:block;margin-top:2px}}
