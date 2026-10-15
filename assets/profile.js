@@ -132,7 +132,49 @@ for (const key of ['email', 'linkedin', 'scholar']) {
   link.href = key === 'email' ? `mailto:${profile[key]}` : profile[key];
   link.title = key === 'email' ? profile[key] : `View ${key === 'scholar' ? 'Google Scholar' : 'LinkedIn'} profile`;
   link.append(...placeholder.childNodes);
-  placeholder.replaceWith(link);
+  if (key === 'email') {
+    const button = elementEmailButton();
+    button.append(...link.childNodes);
+    const panel = document.createElement('div');
+    panel.className = 'email-panel';
+    panel.id = 'email-options';
+    panel.hidden = true;
+    const address = document.createElement('a');
+    address.href = link.href;
+    address.textContent = profile.email;
+    const copy = document.createElement('button');
+    copy.type = 'button';
+    copy.textContent = 'Copy email';
+    copy.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(profile.email);
+        copy.textContent = 'Copied!';
+      } catch {
+        status.textContent = 'Select the address above to copy it.';
+      }
+    });
+    const compose = document.createElement('a');
+    compose.href = link.href;
+    compose.textContent = 'Write email';
+    const status = document.createElement('span');
+    status.setAttribute('role', 'status');
+    panel.append(address, copy, compose, status);
+    button.addEventListener('click', () => {
+      panel.hidden = !panel.hidden;
+      button.setAttribute('aria-expanded', String(!panel.hidden));
+    });
+    placeholder.replaceWith(button);
+    document.querySelector('.contacts').after(panel);
+  } else placeholder.replaceWith(link);
+}
+
+function elementEmailButton() {
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'contact email-toggle';
+  button.setAttribute('aria-controls', 'email-options');
+  button.setAttribute('aria-expanded', 'false');
+  return button;
 }
 
 const element = (tag, className, text) => {
