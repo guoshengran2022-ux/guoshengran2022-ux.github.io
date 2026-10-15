@@ -37,6 +37,6 @@ nav [aria-current=page]{color:var(--blue);font-weight:650}
 @media(max-width:850px){.cv-page .layout{grid-template-columns:210px minmax(0,1fr)}}
 @media(max-width:640px){.cv-page .layout{display:block}.cv-document{min-height:500px;height:75vh}}
 
-.profile-photo{display:block;width:210px;height:260px;max-width:100%;object-fit:cover;object-position:50% 53%;border-radius:9px;margin:0 0 22px;border:1px solid var(--line)}
+.profile-photo{display:block;width:245px;height:305px;max-width:100%;object-fit:cover;object-position:50% 53%;border-radius:9px;margin:0 0 22px;border:1px solid var(--line)}
 .profile-email{font-size:14px;margin:8px 0 0;line-height:1.6}
-@media(max-width:640px){.profile-photo{width:180px;height:220px;margin-bottom:18px}}
+@media(max-width:640px){.profile-photo{width:220px;height:275px;margin-bottom:18px}}
