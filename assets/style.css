@@ -43,3 +43,10 @@ nav [aria-current=page]{color:var(--blue);font-weight:650}
 
 .teaching-university{margin-bottom:18px}.teaching-entry{margin-bottom:18px}.teaching-heading{display:flex;justify-content:space-between;align-items:baseline;gap:12px}.teaching-heading h3{font-size:15px;line-height:1.6}.teaching-heading>span{font-size:13px;color:var(--muted);white-space:nowrap}.teaching-entry p{font-size:14px;color:var(--muted);line-height:1.7;margin:4px 0 0}
 @media(max-width:640px){.teaching-heading{display:block}.teaching-heading>span{display:block;margin-top:2px}}
+
+/* Structured web CV with dated entries. */
+.cv-contents{display:flex;flex-wrap:wrap;gap:8px 20px;border:0;padding:0;margin:0 0 32px}.cv-contents a{font-size:13px}
+.cv-section{margin-bottom:34px}.cv-section h2{font-size:21px;margin-bottom:18px}.cv-section p{font-size:15px}
+.cv-contact{display:grid;grid-template-columns:150px 1fr;gap:8px 16px;font-size:14px}.cv-contact dt{font-weight:650}.cv-contact dd{margin:0}
+.cv-entry{display:grid;grid-template-columns:155px minmax(0,1fr);gap:22px;margin-bottom:24px}.cv-date{font-size:13px;color:var(--muted);padding-top:2px}.cv-entry h3{font-size:15px;line-height:1.6}.cv-entry .cv-org{font-size:14px;color:var(--blue);margin:4px 0 6px}.cv-entry ul{margin:6px 0 0;padding-left:18px;font-size:14px;line-height:1.75}.cv-entry ul:empty{display:none}.cv-entry li{margin-bottom:5px}.cv-skills{font-size:14px}.cv-skills dt{font-weight:650;margin-top:12px}.cv-skills dd{margin:3px 0 0}
+@media(max-width:850px){.cv-entry{grid-template-columns:1fr;gap:5px}.cv-contact{grid-template-columns:1fr;gap:2px}.cv-contact dd{margin-bottom:8px}}
